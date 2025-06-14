@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+   <style>
+    .formdiv{
+      width: 320px;
+      background-color: beige;
+    }
+  </style>
+  <head>
+  
+  <body>
+
+    <div class="formdiv">
+    <form>
+      <table>
+        <tr>
+          <td>Your First Name :</td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>Your Last Name :</td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>Your Email Address :</td>
+          <td><input type="email" /></td>
+        </tr>
+        <tr>
+          <td>Password :</td>
+          <td><input type="password" /></td>
+        </tr>
+        <tr>
+          <td>Gender :</td>
+          <td>
+            <input id="maleRadio" type="radio" name="gender" value="Male" />
+            <label for="maleRadio">Male</label>
+            <input id="femaleRadio" type="radio" name="gender" value="Female" />
+            <label for="femaleRadio">Female</label>
+          </td>
+        </tr>
+        <tr>
+          <td>Date of Birth</td>
+          <td><input type="date"></td>
+        </tr>
+
+        <tr>
+          <td><strong>Hobbies</strong></td>
+        </tr>
+        <tr>
+          <td>Reading Books</td> 
+          <td><input type="checkbox" name="hobbies" value="ReadingBooks"></td>  
+        </tr>
+        <tr>
+          <td>Doing Sports</td>
+          <td><input type="checkbox" name="hobbies" value="DoingSports"></td>
+        </tr>
+        <tr>
+          <td>Playing Instruments</td>
+          <td><input type="checkbox" name="hobbies" value="PlayingInstruments"></td>
+        </tr>
+        <tr>
+          <td colspan="2"><input type="file" name="uploadFile"></td>
+        </tr>
+        <tr>
+          <td><textarea name="message" cols="15" rows="1" placeholder="Your Message: "></textarea></td>
+        </tr>
+        <tr>
+          <td>I have read and agree.  <input type="radio" name="agreement" value="agree"> </td>
+          <tr></tr>
+          <tr></tr>
+          <td>I have read and do not agree    <input type="radio" name="agreement" value="disagree"> </td>
+        </tr>
+        <tr>
+          <td><input type="submit" value="Submit" >
+          <input type="reset" value="Reset"> </td>
+        </tr>
+      </table>
+    </form>
+    </div>
+  </body>
+</html>
